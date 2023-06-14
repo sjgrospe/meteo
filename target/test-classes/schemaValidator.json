@@ -1,0 +1,93 @@
+{
+  "type": "object",
+  "properties": {
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "elevation": {
+      "type": "number"
+    },
+    "generationtime_ms": {
+      "type": "number"
+    },
+    "utc_offset_seconds": {
+      "type": "number"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "timezone_abbreviation": {
+      "type": "string"
+    },
+    "hourly": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "array"
+        },
+        "temperature_2m": {
+          "type": "array"
+        }
+      }
+    },
+    "hourly_units": {
+      "type": "object",
+      "properties": {
+        "temperature_2m": {
+          "type": "string"
+        }
+      }
+    },
+    "current_weather": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "string"
+        },
+        "temperature": {
+          "type": "number"
+        },
+        "weathercode": {
+          "type": "number"
+        },
+        "windspeed": {
+          "type": "number"
+        },
+        "winddirection": {
+          "type": "number"
+        }
+      }
+    },
+    "daily": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "array"
+        },
+        "weathercode": {
+          "type": "array"
+        },
+        "sunrise": {
+          "type": "array"
+        }
+      }
+    },
+    "daily_units": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "type": "string"
+        },
+        "weathercode": {
+          "type": "string"
+        },
+        "sunrise": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
