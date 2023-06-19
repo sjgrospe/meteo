@@ -2,15 +2,10 @@ package steps;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import utilities.APIUtil;
-
-import java.util.List;
-
-import static org.junit.Assert.assertTrue;
 
 public class StepDefinitions {
 
